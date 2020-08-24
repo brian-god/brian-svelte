@@ -1,4 +1,5 @@
 <script>
+	import Button from './components/common/Button.svelte';
 	export let name;
 </script>
 
@@ -6,9 +7,10 @@
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	<div class="conter"></div>
+	<Button> 这是一个按钮组件</Button>
 </main>
 
-<style lang="less">
+<style>
 	main {
 		text-align: center;
 		padding: 1em;
@@ -17,7 +19,7 @@
 	}
 
 	h1 {
-		color: @primary-color;
+		color: #f53c32;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;

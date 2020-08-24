@@ -9,6 +9,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "@smui/ripple": "^1.0.0",
     "less": "^3.12.2",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
