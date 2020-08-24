@@ -1,0 +1,23 @@
+{
+  "name": "@brian-svelte/common",
+  "version": "1.0.0",
+  "description": "Svelte UI -common",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hperrin/svelte-material-ui.git"
+  },
+  "author": "brian",
+  "bugs": {
+    "url": "https://github.com/hperrin/svelte-material-ui/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "svelte": "^3.0.0"
+  }
+}
